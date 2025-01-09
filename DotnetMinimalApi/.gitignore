@@ -1,0 +1,15 @@
+# VS Code ve IDE dosyalarý
+.vscode/
+.vs/
+
+# Derlenmiþ dosyalar
+bin/
+obj/
+
+# Çýktý dosyalarý
+*.log
+*.tmp
+
+# Kullanýcý tarafýndan oluþturulan dosyalar
+.env
+node_modules/
