@@ -46,16 +46,3 @@ HealthCheck özelliği ile her iki servisin sağlığı sürekli olarak izlenmi�
 
 ## 6. Veritabanı Sağlığı ve Sağlamlık Kontrolleri
 Docker Compose içinde kullanılan HealthCheck özelliği, her iki servisin düzgün bir şekilde çalışıp çalışmadığını test eder. Bu özellik, konteynerlerin doğru şekilde başlatıldığını ve her iki servisin de birbirine sağlıklı bir şekilde bağlanabildiğini doğrular.
-
-## Proje Yapısı
-.
-├── Dockerfile                  # .NET API için Dockerfile
-├── docker-compose.yml          # Docker Compose yapılandırması
-├── Program.cs                  # API yapılandırma ve Marten konfigürasyonu
-├── Endpoints/                  # API endpoint fonksiyonları
-│   ├── GetDataEndpoint.cs      # GET işlemi
-│   ├── PostDataEndpoint.cs     # POST işlemi
-│   ├── DeleteDataEndpoint.cs   # DELETE işlemi
-├── Entities/                   # Entity'ler (BaseEntity, RequestData)
-├── appsettings.json            # Konfigürasyon dosyası
-└── README.md                   # Proje açıklamaları ve kurulum talimatları
